@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "86a25572b05f317ab42b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ae40818712061da0d58c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -56591,8 +56591,8 @@
 	      var _this2 = this;
 
 	      var loader = new _pixi2.default.loaders.Loader();
-	      loader.add('rocket', '/assets/rocket.png');
-	      loader.add('particle', '/assets/particle.png');
+	      loader.add('rocket', 'assets/rocket.png');
+	      loader.add('particle', 'assets/particle.png');
 	      loader.once('complete', function () {
 	        return _this2.setState({
 	          resources: loader.resources
