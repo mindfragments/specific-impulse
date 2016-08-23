@@ -39,8 +39,8 @@ class App extends Component {
 
   componentWillMount() {
     const loader = new PIXI.loaders.Loader();
-    loader.add('rocket', '/assets/rocket.png');
-    loader.add('particle', '/assets/particle.png');
+    loader.add('rocket', 'assets/rocket.png');
+    loader.add('particle', 'assets/particle.png');
     loader.once('complete', () => this.setState({
       resources: loader.resources
     }));
